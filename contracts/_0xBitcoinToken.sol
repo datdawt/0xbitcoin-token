@@ -9,11 +9,11 @@ pragma solidity ^0.4.18;
 
 //
 
-// Symbol      : 0xBTC
+// Symbol      : DADA
 
-// Name        : 0xBitcoin Token
+// Name        : dadatoken
 
-// Total supply: 21,000,000.00
+// Total supply: 1,000,000.00
 
 // Decimals    : 8
 
@@ -265,13 +265,13 @@ contract _0xBitcoinToken is ERC20Interface, Owned {
 
 
 
-        symbol = "0xBTC";
+        symbol = "DADA";
 
-        name = "0xBitcoin Token";
+        name = "dadatoken";
 
         decimals = 8;
 
-        _totalSupply = 21000000 * 10**uint(decimals);
+        _totalSupply = 1000000 * 10**uint(decimals);
 
         if(locked) revert();
         locked = true;
